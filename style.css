@@ -1,0 +1,100 @@
+* {
+    margin: 0 0;
+    scroll-behavior: smooth;
+}
+.navbar {
+    flex: 1;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    padding-top: 10px;
+    padding-left: 90ch;
+    height: 5vh;
+}
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    opacity: 0.2;
+}
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    display: flex;
+}
+#home .home-text {
+    width: 100%;
+}
+#home .home-img img{
+    width: 480px;
+    height: 100vh;
+}
+#home .home-text h1 {   
+    color: white;
+    font-size: 120px;
+    padding-top: 150px;
+}
+
+#home .home-text .artikel {
+    color: white;
+    padding-top: 20px;
+    width:400px;
+    font-size: 14px;
+}
+#home .home-text a {
+    margin-left: 100px;
+}
+#home .home-text button {
+    background-color: red;
+    box-sizing: border-box;
+    margin-top: 12px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+}
+#home .home-text .indo{
+    padding-top: 100px;
+    color: white;
+    padding-right: 10px;
+    float: right;
+}
+#content {
+    height: 120vh;
+    background-color: black;
+}
+#content h1{
+    text-align: center;
+    color: white;
+}
+#content .img {
+    margin: 50px 0px 0px 100px;
+}
+#content .img img{
+    width: 200px;
+    height: 200px;
+}
+#new {
+    background-color: black;
+    color: white;
+}
+#new .new {
+
+    display: grid;
+    color: white;
+    margin: 0 100px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,auto);
+    background-color: black;    
+}
